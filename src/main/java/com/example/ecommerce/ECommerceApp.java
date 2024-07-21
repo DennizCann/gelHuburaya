@@ -20,11 +20,11 @@ public class ECommerceApp {
 
             switch (choice) {
                 case 1:
-                    System.out.println("Enter customer name:");
+                    System.out.println("Enter Customer Name : ");
                     String customerName = getStringInput(scanner);
-                    System.out.println("Enter product:");
+                    System.out.println("Enter Product : ");
                     String product = getStringInput(scanner);
-                    System.out.println("Enter payment:");
+                    System.out.println("Enter Payment : ");
                     double payment = getDoubleInput(scanner);
                     saleManager.addSale(customerName, product, payment);
                     break;
